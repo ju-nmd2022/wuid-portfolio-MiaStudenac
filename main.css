@@ -1,0 +1,192 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    background-color: rgb(179, 194, 187);
+    object-fit: fill;
+
+  }
+
+button {
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 7px;
+    stroke: black;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: black;
+    transition: 0.7s;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+}
+
+a:active {
+    color: white;
+}
+
+.juse:hover {
+    color: rgb(94, 83, 96);
+}
+
+.juse:link {
+    text-decoration: none;
+}
+
+.juse:visited {
+    color: none;
+}
+
+.juse:active {
+    color: black;
+}
+
+.img {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: baseline;
+    float: center;
+
+}
+
+.miastu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    align-self: center;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 8px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.center {
+    margin: auto;
+  width: auto;
+  padding: 40px;
+}
+
+.loader {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.loader .stroke {
+    display: block;
+    position: relative;
+    background: rgb(179, 194, 187);
+    height: 80%;
+    width: 10px;
+    border-radius: 50px;
+    margin: 0 5px;
+    animation: animate 1.2s linear infinite;
+    
+}
+
+@keyframes animate {
+    50% {
+        height: 20%;
+    }
+    80% {
+        height: 80%;
+    }
+}
+
+.stroke:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+.stroke:nth-child(2)
+{
+    animation-delay: 0.3s;
+}
+
+.stroke:nth-child(3)
+{
+    animation-delay: 0.6s;
+}
+
+.stroke:nth-child(4)
+{
+    animation-delay: 0.9s;
+}
+
+.stroke:nth-child(5)
+{
+    animation-delay: 0.6s;
+}
+
+.stroke:nth-child(6)
+{
+    animation-delay: 0.3s;
+}
+
+.stroke:nth-child(7)
+{
+    animation-delay: 0s;
+}
+
+
+
+.flower {
+    align-self: center;
+    margin-top: 70px;
+    width: 50%;
+    height: auto;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    font-size: 15px;
+    
+
+}
+
+p1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    float: center;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
